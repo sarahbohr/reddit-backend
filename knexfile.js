@@ -2,9 +2,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      filename: 'postgres://localhost/redditClone'
-    }
+    connection: 'postgres://localhost/redditClone'
   },
 
 };
